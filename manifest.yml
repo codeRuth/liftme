@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 4
+  domain: mybluemix.net
+  name: liftme
+  host: liftme
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  buildpack: python_buildpack
